@@ -15,7 +15,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version:4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src="Exploit 1" width="800">
+  - [ ] GIF Walkthrough: <img src="Exploit 1.gif" width="800">
   - [ ] Steps to recreate: Type in a valid account in the user name. Type in the wrong password and submit.
   - [ ] Affected source code: 4.2
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -26,7 +26,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version:4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src="Exploit 2" width="800">
+  - [ ] GIF Walkthrough: <img src="Exploit 2.gif" width="800">
   - [ ] Steps to recreate: Create an account that is authorized to comment. Create a comment the size of 64 kb with the correct code.
         View as the admin and accept the comment. View the comment with Source code open.
   - [ ] Affected source code: 4.2
@@ -38,7 +38,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.2
     - Fixed in version: Create account that is able to post. Create a post and change the type to text. Put the correct code into the         post. View the post with the admin account and hover over the created link.
-  - [ ] GIF Walkthrough: <img src="Exploit 3" width="800">
+  - [ ] GIF Walkthrough: <img src="Exploit 3.gif" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:4.2
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
