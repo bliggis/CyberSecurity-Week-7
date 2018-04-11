@@ -14,35 +14,37 @@ Time spent: **X** hours spent in total
         Not Patched
     - Vulnerability types:
     - Tested in version:4.2
-    - Fixed in version: 
+    - Fixed in version: not fixed
   - [ ] GIF Walkthrough: <img src="Exploit 1.gif" width="800">
   - [ ] Steps to recreate: Type in a valid account in the user name. Type in the wrong password and submit.
   - [ ] Affected source code: 4.2
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: Exploit 2 Unauthenticated Stored Cross-Site Scripting
+1. (Required) Vulnerability Name or ID User Enumeration
+ 
+ - [ ] Summary: Exploit 2 Unauthenticated Stored Cross-Site Scripting
 
   Fixed in: 4.2.1
     - Vulnerability types:
     - Tested in version:4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: <img src="Exploit 2.gif" width="800">
   - [ ] Steps to recreate: Create an account that is authorized to comment. Create a comment the size of 64 kb with the correct code.
         View as the admin and accept the comment. View the comment with Source code open.
   - [ ] Affected source code: 4.2
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary:  Exploit 3 Authenticated Store Cross-Site Scripting
+1. (Required) Vulnerability Name or ID  Unauthenticated Stored Cross-Site Scripting
+ 
+ - [ ] Summary:  Exploit 3 Authenticated Store Cross-Site Scripting
 
         Fixed in: 4.2.3
     - Vulnerability types:
     - Tested in version: 4.2
-    - Fixed in version: Create account that is able to post. Create a post and change the type to text. Put the correct code into the         post. View the post with the admin account and hover over the created link.
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: <img src="Exploit 3.gif" width="800">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Create account that is able to post. Create a post and change the type to text. Put the correct code into the         post. View the post with the admin account and hover over the created link. 
   - [ ] Affected source code:4.2
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
+  (Required) Vulnerability Name or ID Authenticated Store Cross-Site Scripting
 
 ## Assets
 
